@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="hover.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    <title>Water.io--Dashboard</title>
+    
+    <script type="text/javascript">
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+             document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+        }
+        }
+
+
+function topFunction() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0;
+}
+    </script>
+
+</head>
+<body>
+        <nav class="circle navbar navbar-expand-lg navbar-dark fixed-top" style="background-color:#3f3f3f; background-image: url(images/download.jpeg)">
+        <!-- <div class="container"> -->
+        <div class="navbar-header">
+                <button class="navbar-toggler collapsed " type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <div class="icon"></div>
+                <div class="icon"></div>
+                <div class="icon"></div>
+                </button>
+           
+
+         
+            <h1 class= "navbar-brand mb-0 ml-4 " style="color:black">Water.IO</h1>
+        </div>
+        
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav  ">
+                <li class="nav-item ">
+                    <a class="nav-link" href="#" style="color:black"><b>Home</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="color:black"><b>Tender</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="color:black"><b>Contact Us</b></a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav ml-auto mr-4">
+                <div class="dropdown">
+                    <button class="btn  btn-secondary btn-lg dropdown-toggle" data-display="static" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color:#3f3f3f; border-color:#3f3f3f "><img src="images/logo.png" style="max-width:40px">Users's ID</img></button>
+                        <div class="dropdown-menu dropdown-menu-lg-right" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Help</a>
+                            <a class="dropdown-item" href="#">Settings</a>
+                            <a class="dropdown-item" href="#">Log Out</a>
+                        </div>
+                </div>
+                <form class="form-inline" action="https://www.google.com/search" method="get">
+                    <div class="form-group">
+                        <input type="text" name="q" value="" placeholder="search on web" class="form-control-lg">
+                        <button type="submit" class="btn btn-primary btn-lg">Search</button>
+                    </div>
+                </form>
+            </ul>
+        </div>
+    </nav>
+       
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" style="padding-top:4%;">
+    <div class="carousel-inner" >
+        <!-- <div class="carousel-item active">
+            <img src="ministry.jpg" class="d-block w-100">
+        </div> -->
+        <div class="carousel-item active">
+            <img src="images/img1.png" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+            <img src="images/img2.jpg" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+            <img src="images/img3.jpeg" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+            <img src="images/img4.jpg" class="d-block w-100" >
+        </div>
+        <div class="carousel-item">
+            <img src="images/img5.jpg" class="d-block w-100" >
+        </div>
+        <div class="carousel-item">
+            <img src="images/img6.jpg" class="d-block w-100" >
+        </div>
+        <div class="carousel-item">
+            <img src="images/img7.jpg" class="d-block w-100" >
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<div class="card" style="padding-right: 0%">
+    <h5 class="card-header" style="background-color:lightblue"><b>Featured News</b></h5>
+    <div class="card-body">
+        <p class="card-text">
+<script type="text/javascript"> 
+    rssfeed_url = new Array(); 
+    rssfeed_url[0]="http://goidirectory.nic.in/rss/minstry_rss.php?categ_id=49";  
+    rssfeed_frame_width="100%"; 
+    rssfeed_frame_height="380"; 
+    rssfeed_scroll="on"; 
+    rssfeed_scroll_step="6"; 
+    rssfeed_scroll_bar="on"; 
+    rssfeed_target="_blank"; 
+    rssfeed_font_size="12"; 
+    rssfeed_font_face=""; 
+    rssfeed_border="on"; 
+    rssfeed_css_url=""; 
+    rssfeed_title="on"; 
+    rssfeed_title_name=""; 
+    rssfeed_title_bgcolor="#3366ff"; 
+    rssfeed_title_color="#fff"; 
+    rssfeed_title_bgimage=""; 
+    rssfeed_footer="off"; 
+    rssfeed_footer_name="rss feed"; 
+    rssfeed_footer_bgcolor="#fff"; 
+    rssfeed_footer_color="#333"; 
+    rssfeed_footer_bgimage=""; 
+    rssfeed_item_title_length="50"; 
+    rssfeed_item_title_color="#666"; 
+    rssfeed_item_bgcolor="#fff"; 
+    rssfeed_item_bgimage=""; 
+    rssfeed_item_border_bottom="on"; 
+    rssfeed_item_source_icon="off"; 
+    rssfeed_item_date="off"; 
+    rssfeed_item_description="on"; 
+    rssfeed_item_description_length="120"; 
+    rssfeed_item_description_color="#666"; 
+    rssfeed_item_description_link_color="#333"; 
+    rssfeed_item_description_tag="off"; 
+    rssfeed_no_items="0"; 
+    rssfeed_cache = "38b101286430c0612f3f78dbc3ded0e7"; 
+    //--> 
+    </script> 
+    <script type="text/javascript" src="//feed.surfing-waves.com/js/rss-feed.js"></script></p>
+    </div>
+</div>
+
+<div class="row ml-auto mr-auto" style="margin-top:3%; width:85%;">
+        <div class="col-md-4">
+        <div class="card text-center">
+            <div class="inner">
+                <img src="images/graph.png" style="width:100%">
+            </div>
+            <div class="card-body">
+            <h5 class="card-title"> GroundWater Trends</h5>
+            <p class="card-text">Enter to See the ground water level trends of different regions.</p>
+            <a href="#" class="btn btn-primary">Enter Now</a>
+            </div>
+        </div>
+        </div>
+        <div class="col-md-4">
+        <div class="card text-center">
+                <div class="inner">
+                <img src="images/data.jpg" style="width:100%;">
+                </div>
+            <div class="card-body">
+            <h5 class="card-title">Water Predicton</h5>
+            <p class="card-text">Enter if you wish to see the ground water level forecast.</p>
+            <a href="#" class="btn btn-primary">Enter Now</a>
+            </div>
+        </div>
+        </div>
+        <div class="col-md-4">
+                <div class="card text-center">
+                        <div class="inner">
+                        <img src="images/india.jpg" style="width:100%">
+                        </div>
+                    <div class="card-body">
+                    <h5 class="card-title"> GroundWater Trends</h5>
+                    <p class="card-text">Enter to See the ground water level trends of different regions.</p>
+                    <div class="dropdown">
+                            <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Dropdown link
+                            </a>
+                          
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                              <a class="dropdown-item" href="#">Soil Map</a>
+                              <a class="dropdown-item" href="#">Terrain Map</a>
+                              <a class="dropdown-item" href="#">Monsoon Map</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                </div>
+    </div>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<footer class="footer-distributed">
+
+        <div class="footer-left">
+
+            <img src="images/logo1.png" style="width:10%">
+
+            <!-- <h3>Company<span>logo</span></h3> -->
+
+            <p class="footer-links">
+                <a href="#">Home</a>
+                ·
+                <a href="#">Tender</a>
+                ·
+                <a href="#">About Us</a>
+                ·
+                <a href="#">Contact Us</a>
+            </p>
+
+            <p class="footer-company-name">Water.IO &copy; 2019</p>
+        </div>
+
+        <div class="footer-center">
+
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>No. U-15, J.V.P.D. Scheme,Bhaktivedanta Swami Rd</span> Vile Parle, Mumbai, Maharashtra 400056</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+91-88551 95847</p>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:support@water.io.com">support@water.io.com</a></p>
+            </div>
+
+        </div>
+
+        <div class="footer-right">
+
+            <p class="footer-company-about">
+                <h3><span>About the company</span></h3>
+               <h5 style="color:white;">This was made for Smart India Hackathon 2019 - Software Edition</h5>   
+            </p>
+
+            <div class="footer-icons">
+
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
+</body>
+</html>
