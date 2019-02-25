@@ -1,0 +1,27 @@
+body{
+
+    /* background-image: url(image/city.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    background-color: black;
+    height : 100vh;
+    background-image: url(image/rain.png);
+    background-size: fixed;
+    animation: rain 0.5s linear infinite;
+
+}
+
+@keyframes rain
+{
+    0%
+    {
+        background-position: 0% 0%;
+    }
+    100%
+    {
+        background-position: 20% 100%;
+    }
+}
+.round{
+    border-radius: 30px;
+}
