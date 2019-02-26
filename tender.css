@@ -1,0 +1,30 @@
+.bread{
+ margin-top: 2vw;
+ margin-left: 27vw; 
+ width:48%;
+}
+
+.contain{
+    width:50%;
+    margin:auto;
+    /* background-color: black; */
+}
+
+.heads{
+    text-align: center;
+/* background-color: gray; */
+margin-top: 2vw;
+margin-left: 2vw;
+}
+
+.tends{
+    /* margin-top: 4vw; */
+    line-height: 3vw;
+    margin-left: 1vw;
+    color: black; 
+}
+
+.link{
+    color:black;
+    text-decoration-line: underline;
+}
